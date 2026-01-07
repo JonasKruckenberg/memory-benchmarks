@@ -1,0 +1,15 @@
+[package]
+name = "simd-tree-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+memmap2 = "0.9.9"
+
+[dev-dependencies]
+criterion = "0.8.1"
+
+[[bench]]
+name = "bandwidth"
+harness = false
+
